@@ -1,1 +1,7 @@
-# CSC-690_Fall-2019_Final-project
+# CSC 690 (Fall 2019) Final project
+
+## Team (solo)
+- Ilya Kopyl (ikopyl@mail.sfsu.edu)
+
+
+## Final Project proposal
