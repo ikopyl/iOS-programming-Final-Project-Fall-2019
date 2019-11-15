@@ -1,4 +1,4 @@
-# CSC 690 (Fall 2019) Final project
+# CSC 690 (Fall 2019) Final project - Blackjack Game
 
 ## Team (solo)
 - Ilya Kopyl (ikopyl@mail.sfsu.edu)
@@ -24,7 +24,7 @@
 
 
 ### Functional Requirements
-3.1. User shall be able to start a new game – Black Jack.    
+3.1. User shall be able to start a new game – Blackjack.    
 3.2. User shall have a minimum starting balance to place bets.    
 3.3. User shall be able to draw a card.    
 3.4. User shall lose the game round if the sum of drawn cards is greater than 21.    
