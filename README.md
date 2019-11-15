@@ -5,7 +5,10 @@
 
 
 ## Final Project proposal
-### - Must have features
+### Description
+An app that allows a user to play a game of Blackjack.
+
+### Must have features
 1.1. Main menu shall appear upon launching the game.    
 1.2. Main Menu shall have a button to start a game.    
 1.3. Main Menu shall have a button to quit the app.    
@@ -18,7 +21,7 @@
 1.5. Completed Round screen shall display a button to start a new round.    
 1.6. Completed Round screen shall display a button to finish the game.    
 
-### - Nice to have features
+### Nice to have features
 2.1. Main menu shall have a button to open a list of top winning records.    
 2.1. User shall be able to select a level of difficulty which is measured as the number of card decks used in the game.    
 
