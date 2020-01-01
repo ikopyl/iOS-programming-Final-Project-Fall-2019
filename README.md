@@ -6,41 +6,39 @@
 
 ## Final Project proposal
 ### Description
-An app that allows a user to play a game of Blackjack.
+An app that allows a user to play a platform (Mario-like) game with Pacman characters.
 
 ### Must have features
-1.1. Main menu shall appear upon launching the game.    
-1.2. Main Menu shall have a button to start a game.    
-1.3. Main Menu shall have a button to quit the app.    
-1.3. Game screen shall display a deck of cards.    
-1.4. Game screen shall display a player's balance.    
-1.5. Game screen shall display player's drawn cards.    
-1.6. Game screen shall display cards drawn by the dealer.    
-1.7. Game screen shall display a button for finishing the game.    
-1.4. Completed Round scren shall display amount of money won or lost during the last round.    
-1.5. Completed Round screen shall display a button to start a new round.    
-1.6. Completed Round screen shall display a button to finish the game.    
+1.3. Game screen shall display a game character.
+1.4. Game screen shall display a score.
+1.5. Game screen shall render cherries that a game character can consume.
+1.6. Game screen shall render ghosts that a game character must avoid.
+1.7. Any time when a cherry is consumed by a game character, the score increments.
+1.8. Any time when a game character collides with a ghost, the game is over.
+1.9. When the game is over, the final score for the game is displayed.
+1.9. When the game is over, the replay button appears, prompting user to try again.
+
 
 ### Nice to have features
-2.1. Main menu shall have a button to open a list of top winning records.    
-2.1. User shall be able to select a level of difficulty which is measured as the number of card decks used in the game.    
+2.1. As the game score increases, the speed of moving objects (cherries, ghosts) increases as well.
+2.2. In order to make the rendereing pattern of the moving objects less predictable, leverage the randomization functions.
 
 
-### Functional Requirements
-3.1. User shall be able to start a new game – Blackjack.    
-3.2. User shall have a minimum starting balance to place bets.    
-3.3. User shall be able to draw a card.    
-3.4. User shall lose the game round if the sum of drawn cards is greater than 21.    
-3.5. User shall be able to indicate that he will not draw any more cards.    
-3.6. User shall be able to place bets.    
-3.7. User shall be able to see a dealer drawing his cards.    
-3.8. User's balance shall increase if the User wins a round.    
-3.9. User's balance shall decrease if the User loses a round.    
-3.10. Upon finishing a game round, a user shall have an option to quit the game.    
-3.11. Upon finishing a game round, a user shall have an option to start another round.    
-3.12. User shall not be able to start another round if his balance is low.    
-3.13. User shall be able to keep gambling as long as his balance remains positive.    
-3.14. User shall be able to stop the game at any moment.    
-3.15. Upon finishing the game, the user shall be able to see the records of top winners.    
-3.16. Upon finishing the game, the user shall be able to start another game.    
-3.17. User shall be able to quit the app.    
+# Credits
+
+1. The given work is based on the learning materials I found in the online tutorial "The Complete iOS 11 and Swift Developer Course" by Nick Walter and Rob Percival, Packt Publishing 2019:
+    https://learning.oreilly.com/videos/the-complete-ios/9781838827533
+
+2. The images of Ghost, Cherry and Play Bbutton were taken from flaticon.com:
+    - Ghost icon: © Freepik
+    https://www.flaticon.com/free-icon/ghost_1687535?term=ghost&page=1&position=37    
+
+    - Cherry icon: © Freepik
+    https://www.flaticon.com/free-icon/cherry_590774     
+
+    - Play Button icon: © Freepik
+    https://www.flaticon.com/free-icon/play-arrow_56809?term=play%20button&page=1&position=22    
+
+3. The image of pacman was drawn by myself in LucidChart software.
+
+All rights reserved.
