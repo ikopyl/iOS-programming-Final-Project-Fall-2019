@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  PacmanPlatformer
+//  pacman
 //
-//  Created by Ilya Kopyl on 12/31/19.
+//  Created by Ilya Kopyl on 12/30/19.
 //  Copyright © 2019 Ilya Kopyl. All rights reserved.
 //
 
@@ -10,9 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -35,7 +33,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
-
-
 }
-

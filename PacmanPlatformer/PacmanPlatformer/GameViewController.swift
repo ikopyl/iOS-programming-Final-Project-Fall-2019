@@ -1,32 +1,31 @@
 //
 //  GameViewController.swift
-//  PacmanPlatformer
+//  pacman
 //
-//  Created by Ilya Kopyl on 12/31/19.
+//  Created by Ilya Kopyl on 12/30/19.
 //  Copyright © 2019 Ilya Kopyl. All rights reserved.
 //
 
-import UIKit
-import SpriteKit
 import GameplayKit
+import SpriteKit
+import UIKit
 
 class GameViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
-                
+
                 // Present the scene
                 view.presentScene(scene)
             }
-            
+
             view.ignoresSiblingOrder = true
-            
+
             view.showsFPS = true
             view.showsNodeCount = true
         }
